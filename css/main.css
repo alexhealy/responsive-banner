@@ -1,0 +1,28 @@
+html {
+  font-family: Georgia, serif;
+}
+
+.banner-info {
+  background-color: #495562;
+  margin: 0;
+  padding: 0;
+  color: #efefef;
+  width: 100%;
+}
+
+.btn {
+  color: #efefef;
+  border: solid 3px #97a49b;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-info {
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+}
